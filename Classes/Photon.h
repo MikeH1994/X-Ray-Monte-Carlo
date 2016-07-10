@@ -10,22 +10,22 @@ private:
 public:
 	Photon(double E) {
 		this->E = E;
-    this->E_init = E;
+		this->E_init = E;
 		this->x = 0;
 		this->theta = 0;
 	}
 	Photon() {
 		this->E = 0;
-    this->E_init = 0;
+		this->E_init = 0;
 		this->x = 0;
 		this->theta = 0;
 	}
 	double getE() {
 		return this->E;
 	}
- double getE_init(){
-    return this->E_init;
- }
+	double getE_init(){
+		return this->E_init;
+	}
 	double getX() {
 		return this->x;
 	}
